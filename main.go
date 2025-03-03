@@ -14,7 +14,6 @@ import (
 	"github.com/shirou/gopsutil/v3/net"
 )
 
-// Для Linux-специфичных функций
 const (
 	tempFile = "/sys/class/thermal/thermal_zone0/temp"
 	memInfo  = "/proc/meminfo"
